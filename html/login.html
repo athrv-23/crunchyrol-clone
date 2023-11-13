@@ -3,15 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>LOG IN</title>
     <link rel="stylesheet" href="../css/style.css">
     <script src="../javascript/index.js"></script>
 </head>
-<body>
+<body>  
+    <img src="../images/ll.avif" class="bg_login" height="944px" width="1500px">
     <div class="login-box">
-        <input id="email" type="email" placeholder="enter your email: "> 
-        <input id="password" class="mt" type="password" placeholder="enter your password: ">
-        <button class="mt lgbtn" onclick="login()">login</button>
+        <h1 class="mt lgn_h1">Log In</h1>
+        <h2 class="mt lgn_h2">EMAIL</h2>
+        <p class="lgn_p1">FORGOT PASSWORD?</p>
+        <div class="lgn_em_ps">
+            <input id="email" class="exp" type="email" placeholder="E-mail or Username "> 
+            <input id="password" class="mt exp" type="password" placeholder="Password ">
+        </div>
+        <button class="mt lgbtn" onclick="login()">LOG IN</button>
     </div>
+    <div>
+        <nav class="navbar_lgn">
+            <ul class="logo">
+                <li>Crunchyroll</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="img_li1">
+        <img src="../images/log-in-hime.png">
+    </div>
+    <div class="img_li2">
+        <img src="../images/log-in-yuzu.png">
+    </div>
+    <div class="extras">
+        <p class="ex1">No account?</p>
+        <p class="ex2">CREATE ONE</p>
+        <div class="ex3">
+            <P>Terms of Use</P>
+            <P>|</P>
+            <p>Privacy Policy</p>
+            <p>|</p>
+            <p>Cookie Consent Tool</p>
+        </div>
 </body>
 </html>

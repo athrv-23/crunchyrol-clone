@@ -4,10 +4,10 @@ function login() {
 
     if(email == "pravinshinde99300@gmail.com" && password == "pravin123")
     {
-        alert("access granted")
+        alert("ACCESS GRANTED")
     }
     else
     {
-        alert("please check your email and password")
+        alert("PLEASE CHECK YOUR EMAIL OR PASSWORD")
     }
 }
